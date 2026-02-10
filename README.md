@@ -1,57 +1,58 @@
-#  Sabor Express — Sistema de Restaurantes (CLI)
+# Biblioteca Digital CLI
 
-Aplicação em Python que simula um sistema simples de gerenciamento de restaurantes via terminal. O projeto utiliza menu interativo para cadastro e listagem de dados, com foco em lógica de programação, organização de código e boas práticas.
+Sistema de biblioteca desenvolvido em Python e executado via linha de comando (CLI). A aplicação permite gerenciar livros por meio de um menu interativo no terminal.
 
----
+## Descrição
 
-##  Funcionalidades
+Este projeto simula o funcionamento básico de uma biblioteca, permitindo o cadastro e a listagem de livros, além do controle de empréstimos e devoluções. O objetivo principal é praticar lógica de programação, organização de código e o uso de estruturas de dados em Python.
 
-* Exibição do nome do sistema
-* Menu interativo no terminal
-* Cadastro de restaurantes
-* Listagem de restaurantes cadastrados
-* Tratamento de entradas inválidas
-* Navegação entre menus
+## Funcionalidades
 
----
+- Cadastrar livros
+- Listar livros cadastrados
+- Emprestar e devolver livros
+- Visualizar o status de disponibilidade
 
-##  Como executar
+## Tecnologias utilizadas
 
-1. Certifique-se de ter o **Python 3.x** instalado.
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  
+  
 
-2. Clone o repositório:
+## Como executar o projeto
 
-```
-git clone https://github.com/gabrielaps28/RestoManager_python.git
-```
-
-3. Acesse a pasta do projeto:
+1. Clone o repositório:
 
 ```
-cd RestoManager_python
+git clone <url-do-repositorio>
 ```
 
-4. Execute o programa:
+2. Acesse o diretório do projeto:
 
 ```
-python app.py
+cd biblioteca-digital-cli
 ```
 
----
+3. Execute a aplicação:
 
-##  Objetivo do projeto
+```
+python biblioteca_cli.py
+```
 
-Este projeto foi desenvolvido para praticar:
+## Conceitos aplicados
 
-* Estruturação de funções em Python
-* Fluxo de controle
-* Tratamento de erros
-* Organização e legibilidade de código
-* Interação com o usuário via terminal
+- Funções  
+- Listas e dicionários  
+- Estruturas condicionais  
+- Laços de repetição  
+- Organização e legibilidade de código  
 
----
+## Objetivo do projeto
 
-##  Status
+Projeto desenvolvido para fins educacionais, com foco no aprendizado de Python e na construção de aplicações em linha de comando.
 
-Projeto em evolução — novas funcionalidades e melhorias serão implementadas conforme o aprendizado avança.
+## Licença
 
+Projeto de uso educacional.
